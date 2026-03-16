@@ -5,7 +5,7 @@ A Claude Code skill for writing efficient prompts that maximize hit rate, minimi
 ## Installation
 
 ```bash
-npx skills add Taogonglin/skills -g
+npx skills add Taogonglin/prompt-op-skill -g
 ```
 
 Or install specific skill:
