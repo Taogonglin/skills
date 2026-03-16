@@ -1,0 +1,11 @@
+{
+  "name": "prompt-optimizer",
+  "description": "When the user wants to write, improve, or optimize prompts for AI models. Use when the user mentions \"prompt optimization,\" \"write better prompts,\" \"improve my prompt,\" \"prompt engineering,\" \"fix this prompt,\" \"why isn't my prompt working,\" \"make prompts reusable,\" or \"reduce prompt iterations.\" Also use when the user shares a prompt and wants feedback or wants to create prompt templates.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Taogonglin"
+  },
+  "license": "MIT",
+  "keywords": ["prompt", "prompt-engineering", "optimization", "ai", "llm"],
+  "skills": ["./.claude/skills/prompt-optimizer"]
+}

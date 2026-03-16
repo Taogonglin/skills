@@ -4,23 +4,18 @@ A Claude Code skill for writing efficient prompts that maximize hit rate, minimi
 
 ## Installation
 
-### Option 1: Install from this repo
-
 ```bash
-# Clone the repo
-git clone https://github.com/Taogonglin/skills.git
-cd my-skills
-
-# Link skill to Claude Code
-ln -s $(pwd)/skills/prompt-optimizer ~/.claude/skills/prompt-optimizer
+# Install as Claude Code plugin
+claude plugin add Taogonglin/skills
 ```
 
-### Option 2: Download .skill file
-
-Download `prompt-optimizer.skill` and run:
+Or manually:
 
 ```bash
-unzip prompt-optimizer.skill -d ~/.claude/skills/
+# Clone and link
+git clone https://github.com/Taogonglin/skills.git
+cd skills
+claude plugin link .
 ```
 
 ## Features

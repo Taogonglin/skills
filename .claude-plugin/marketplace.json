@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "prompt-optimizer",
+  "id": "prompt-optimizer",
+  "owner": {
+    "name": "Taogonglin"
+  },
+  "metadata": {
+    "description": "Write efficient prompts that maximize hit rate, minimize revision rounds, and increase template reusability",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prompt-optimizer",
+      "source": "./",
+      "description": "Expert prompt engineering skill for writing efficient prompts. Features: Pipeline structure, XML tag boundaries, bidirectional examples, precise action language, temperature guide.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taogonglin"
+      },
+      "keywords": [
+        "prompt",
+        "prompt-engineering",
+        "optimization",
+        "ai",
+        "llm"
+      ],
+      "category": "productivity",
+      "strict": false
+    }
+  ]
+}
